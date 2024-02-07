@@ -95,5 +95,12 @@ export default {
             background-repeat: no-repeat;
             background-size: cover;
             }
+    a{
+        border-bottom: 1px solid transparent;
+                    &:hover {
+                        color: $dc-color;
+                        border-bottom: 1px solid white;
+                    }
+    }
 
 </style>

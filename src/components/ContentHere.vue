@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-  <div id="content-here" class="d-flex align-items-center ">
+  <div id="content-here" class="d-flex align-items-center py-5">
     <h2 class="text-white w-75 mx-auto">
         Content goes here
     </h2>
