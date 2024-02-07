@@ -42,10 +42,8 @@ nav{
   figure{
       width: 40px;
       height: 40px;
-      margin: 0;
   }
   ul{
-    margin-bottom: 0;
     height: 74px;
     li{
       height: 74px;
@@ -54,11 +52,12 @@ nav{
         color: black;
         border-bottom: 5px solid transparent;
         &:hover {
-          color: $font-color;
-          border-bottom: 5px solid $font-color;
+          color: $dc-color;
+          border-bottom: 5px solid $dc-color;
         }
       }
     }
+  }
 }
-}
+
 </style>
