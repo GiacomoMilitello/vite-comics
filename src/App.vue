@@ -1,17 +1,18 @@
 <script>
-import ExampleName from "./components/ExampleName.vue";
+import NavBar from "./components/NavBar.vue";
+import ContentHere from "./components/ContentHere.vue";
 
 export default {
   components: {
-    ExampleName,
+    NavBar,
+    ContentHere,
   },
 };
 </script>
 
 <template>
-  <h1>Hello World</h1>
-
-  <ExampleName />
+  <NavBar />
+  <ContentHere />
 </template>
 
 <style lang="scss">
