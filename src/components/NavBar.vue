@@ -48,6 +48,7 @@ nav{
     li{
       height: 90px;
       a{
+        font-size: 90%;
         height: 90px;
         color: black;
         border-bottom: 5px solid transparent;

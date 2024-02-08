@@ -49,7 +49,7 @@ export default {
         ul{
             li{
                 a{
-                    font-size: 70%;
+                    font-size: 85%;
                     border-bottom: 3.5px solid transparent;
                     &:hover {
                         color: $dc-color;

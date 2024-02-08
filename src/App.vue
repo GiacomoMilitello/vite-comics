@@ -1,6 +1,6 @@
 <script>
 import NavBar from "./components/NavBar.vue";
-import ContentHere from "./components/ContentHere.vue";
+import JumboTitles from "./components/JumboTitles.vue";
 import OurShop from "./components/OurShop.vue";
 import FooterLinks from "./components/FooterLinks.vue";
 import SignUp from "./components/SignUp.vue";
@@ -8,7 +8,7 @@ import SignUp from "./components/SignUp.vue";
 export default {
   components: {
     NavBar,
-    ContentHere,
+    JumboTitles,
     OurShop,
     FooterLinks,
     SignUp
@@ -18,7 +18,7 @@ export default {
 
 <template>
   <NavBar />
-  <ContentHere />
+  <JumboTitles/>
   <OurShop/>
   <FooterLinks/>
   <SignUp/>

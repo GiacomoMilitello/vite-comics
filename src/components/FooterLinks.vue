@@ -62,7 +62,7 @@ export default {
                         </li>
                     </ul>
                 </div>
-<!-- SHOP -->
+<!-- DC -->
                 <ul class="list-unstyled">
                     <li class="text-white fw-bold">DC</li>
                     <li v-for="contact in dc" :key="contact.name" class="">
@@ -95,12 +95,17 @@ export default {
             background-repeat: no-repeat;
             background-size: cover;
             }
-    a{
-        border-bottom: 1px solid transparent;
-                    &:hover {
-                        color: $dc-color;
-                        border-bottom: 1px solid white;
-                    }
+    li{
+        font-size: 90%;
+        a{
+            font-size: 90%;
+            border-bottom: 1px solid transparent;
+            &:hover {
+                color: $dc-color;
+                border-bottom: 1px solid white;
+            }
+        }
     }
+    
 
 </style>
