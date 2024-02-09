@@ -24,7 +24,7 @@ export default {
 
     figure{
         aspect-ratio: 1;
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
     }
